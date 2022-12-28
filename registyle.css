@@ -1,0 +1,67 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image: url(newr.jpg);
+    background-size: cover;
+}
+.topnav
+{
+    border-bottom: 3px solid #ebb208;
+    overflow: hidden;
+}
+.topnav a
+{
+    float: left;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .topnav-right{
+    float: right;
+  }
+  .new
+  {
+    color: blanchedalmond;
+    text-align: left;
+    border: 3px outset rgb(188, 168, 202);
+    width: 450px;
+    height: 380px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .new h1
+  {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline salmon;
+    text-align: center;
+  }
+  input[type=text],input[type=gender],input[type=date],input[type=email],input[type=tel],input[type=password]
+  {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=submit]
+  {
+    padding: 5px;
+    float: right;
+    margin-right: 50px;
+  }
