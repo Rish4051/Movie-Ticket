@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Theatre</title>
-    <link rel="stylesheet.css" href="thestyle.css">
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
     <div class="topnav">
         <b>
-            <a href="#home">Home</a>
+            <a href="main.html">Home</a>
             <a href="#profile">Profile</a>
             <a class="active" href="#theatre">Theatre</a>
             <a href="#help">Help</a>
@@ -20,5 +20,47 @@
             </div>   
         </b>
     </div>
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="avatar.jpg" style="width:100%">
+          <div class="text">AVATAR 2</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="bheem.jpg" style="width:100%">
+          <div class="text">CHHOTA BHEEM</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="Pushpa.jpg" style="width:100%">
+          <div class="text">PUSHPA : THE RISING</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="stuart.jpg" style="width:100%">
+            <div class="text">STUART LITTLE 2</div>
+          </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+
+      <script src= "myscript.js"></script> 
 </body>
 </html>
